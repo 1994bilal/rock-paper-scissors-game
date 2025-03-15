@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.1/dist/confetti.browser.min.js"></script>
+
+</head>
+<body>
+    <h1>
+        Rock Paper Scissor Game 
+    </h1>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="images/rock.jpg" alt="1">
+            <h2>ROCK</h2>
+        </div>
+        
+        <div class="choice" id="paper">
+            <img src="images/paper.jpg" alt="2">
+            <h2>PAPER</h2>
+        </div>
+
+        
+        <div class="choice" id="scissor">
+            <img src="images/scissor.jpg" alt="3">
+            <h2>SCISSOR</h2>
+        </div>
+    </div>
+<div class="scoreboard">
+    <div class="score">
+        <p id="user-score" style="font-size: 40px;">0</p>
+        <p style="font-size: 30px";>You</p>
+    </div> 
+
+        <div class="score">
+            <p id="comp-score" style="font-size: 40px;">0</p>
+            <p style="font-size: 30px;">Comp</p>
+        </div>
+       
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Play your Move</p>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
